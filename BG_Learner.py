@@ -1,7 +1,7 @@
 import numpy as np
 import cv2
 
-file_path = "Sample.mp4"
+file_path = "Sample copy1.mp4"
 
 #Load Video
 cap = cv2.VideoCapture(file_path)
@@ -50,14 +50,27 @@ while True:
     cv2.putText(frame,Learnstr, (10,30), font, fontScale,fontColor, lineType)
 
 #Show Video
-    cv2.imshow('Orgiginal',frame)
+    winname = "Original"
+    cv2.namedWindow(winname)
+    cv2.moveWindow(winname, 100,100)
+    cv2.imshow(winname, frame)
+
+    winname1 = "Result"
+    cv2.namedWindow(winname1)
+    cv2.moveWindow(winname1, 600,100)
+    cv2.imshow(winname1, result)
+
+
+
+    # cv2.imshow('Original',frame)
+    # cv2.imshow('Result',result)
     
 #Press ESC to quit
     k = cv2.waitKey(1) & 0xff
     if k == 27:
         exit()
 
-cv2.imshow('result', result)
+
 cv2.imwrite('BG.jpg', result)
 cv2.waitKey(0)
 
