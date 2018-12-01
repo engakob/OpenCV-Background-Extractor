@@ -10,5 +10,3 @@ This program takes an input video of a street and tries to extract the backgroun
 
 ## How to start
 Run BG_Learner.py, make sure that 'Sample.mp4' is in the same directory as the Python File. A JPG image will be generated at the end.
-![image text](https://github.com/akob125/AI-Q-Reinforcement-Learning-Snake/blob/master/Media/Plot.jpg)
-![image text](https://github.com/akob125/AI-Q-Reinforcement-Learning-Snake/blob/master/Media/GIF.gif)
