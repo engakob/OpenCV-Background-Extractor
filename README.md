@@ -1,7 +1,7 @@
 # Background Learner Using OpenCV & Python
 
 
-This program takes an input video of a street and tries to extract the background. Using the OpenCV's averaging tools, and a regulation speed of 0.005, we were able to extract the background in a good. Notice that the street was not completely empty of cars at any frame.
+This program takes an input video of a street and tries to extract the background. Using the OpenCV's averaging tools, and a regulation speed of 0.005, we were able to extract the background in a good way. Notice that the street was not completely empty of cars at any frame.
 
 ## Requirements
 `Python 2 or 3`\
