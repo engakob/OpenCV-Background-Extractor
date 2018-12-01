@@ -10,4 +10,5 @@ This program takes an input video of a street and tries to extract the backgroun
 
 ## How to start
 Run BG_Learner.py, make sure that 'Sample.mp4' is in the same directory as the Python File. A JPG image will be generated at the end.
-![image text](https://github.com/engakob/OpenCV-Background-Extractor/tree/master/Media/FastGIF.GIF)
+
+![image text](https://github.com/engakob/OpenCV-Background-Extractor/tree/master/Media/FastGIF.gif)
